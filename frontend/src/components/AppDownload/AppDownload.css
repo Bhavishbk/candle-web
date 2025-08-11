@@ -1,0 +1,131 @@
+/* .app-download {
+    margin: 100px auto;
+    font-size: max(3vw, 20px);
+    text-align: center;
+    font-weight: 500;
+}
+.app-download-platforms{
+    display: flex;
+    justify-content: center;
+    gap: max(2vw,10px);
+    margin-top: 40px;
+}
+.app-download-platforms img{
+   width:max(30vw,120px);
+   max-width: 180px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.app-download-platforms img:hover{
+    transform: scale(1.05);
+ } */
+  .app-section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.highlight-card {
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-container {
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  stroke-width: 1.5px;
+}
+
+.icon.yellow {
+  color: #f4c430;
+}
+
+.icon.green {
+  color: #3cb371;
+}
+
+.icon.orange {
+  color: #ffa500;
+}
+
+.icon.purple {
+  color: #8a2be2;
+}
+
+.highlight-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.highlight-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.review-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.review-card {
+  padding: 20px 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  text-align: left;
+}
+
+.comment {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.review-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.stars {
+  font-size: 1rem;
+  color: #f4c430;
+}

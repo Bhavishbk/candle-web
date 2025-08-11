@@ -1,0 +1,120 @@
+/* .add{
+    width: 70%;
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    color: #6D6D6D;
+    font-size: 16px;
+}
+.add form{
+   gap: 20px;
+}
+.add-img-upload img{
+    width: 120px;
+}
+.add-product-name, .add-product-description{
+    width: max(40%,280px);
+}
+.add-product-name input ,.add-product-description textarea{
+    padding: 10px 10px;
+}
+.add-category-price{
+    display: flex;
+    gap: 30px;
+}
+.add-category-price select,.add-category-price input{
+    max-width: 120px;
+    padding: 10px;
+}
+.add-btn{
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+} */
+ .add {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  color: #4a148c; /* Deep purple text */
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.add-img-upload img {
+  width: 120px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(155, 39, 176, 0.3);
+}
+
+.add-product-name,
+.add-product-description {
+  width: max(40%, 280px);
+}
+
+.add-product-name input,
+.add-product-description textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ce93d8;
+  border-radius: 10px;
+  background: #f3e5f5;
+  transition: border 0.3s ease;
+  font-size: 1rem;
+  color: #4a148c;
+}
+
+.add-product-name input:focus,
+.add-product-description textarea:focus {
+  outline: none;
+  border-color: #8e24aa;
+  background: #fce4ec;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.add-category-price select,
+.add-category-price input {
+  max-width: 140px;
+  padding: 10px;
+  border: 1px solid #ba68c8;
+  border-radius: 10px;
+  background: #f3e5f5;
+  font-size: 0.95rem;
+  color: #6a1b9a;
+  transition: 0.3s ease;
+}
+
+.add-category-price select:focus,
+.add-category-price input:focus {
+  outline: none;
+  border-color: #8e24aa;
+  background: #fce4ec;
+}
+
+.add-btn {
+  max-width: 150px;
+  border: none;
+  padding: 12px;
+  background: linear-gradient(90deg, #8e24aa, #6a1b9a);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background: linear-gradient(90deg, #7b1fa2, #4a148c);
+}
