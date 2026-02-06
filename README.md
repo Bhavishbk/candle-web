@@ -2,7 +2,7 @@
 # 🕯️ Candle Web
 
 A modern and responsive candle website built with **Next.js** and **MERN-stack concepts**, focused on clean UI, smooth user experience, and scalable frontend architecture.
-
+open at: https://github.com/Bhavishbk/candle-web
 ---
 
 ## 🚀 Features
@@ -71,12 +71,6 @@ candle-web/
    ```
    http://localhost:3000
    ```
-
----
-
-## 📸 Screenshots
-
-*Add screenshots of your website here to make the repo more attractive.*
 
 ---
 
